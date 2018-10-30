@@ -201,7 +201,7 @@ components:
         - status
         - email
         - address
-        - bankingAccount
+        - iban
         - admissioned
       properties:
         firstName:
@@ -222,7 +222,7 @@ components:
           format: email
         address:
           $ref: '#/components/schemas/Address'
-        bankingAccount:
+        iban:
           type: string
         admissioned:
           type: boolean
