@@ -224,6 +224,7 @@ components:
           $ref: '#/components/schemas/Address'
         iban:
           type: string
+          description: Has to be  `DE` directly followed by 20 digits.
         admissioned:
           type: boolean
         account:
