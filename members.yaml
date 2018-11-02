@@ -226,6 +226,8 @@ components:
           type: string
         admissioned:
           type: boolean
+        account:
+          type: string
         offices:
           type: array
           items:
