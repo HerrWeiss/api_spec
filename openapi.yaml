@@ -46,6 +46,7 @@ paths:
   /accounts:
     get:
       summary: Paginated list of accounts without transactions.
+      deprecated: true
       tags:
         - Accounts
       parameters:
